@@ -64,10 +64,10 @@ a{
   width: 280px;
   margin-bottom: 0px;
 }
-.grid{
+.container{
   display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px 200px;
+	grid-template-rows: 300px 290px;
   margin: 20px 10% 20px 10%;
 }
 
@@ -98,6 +98,7 @@ button{
   background-color: #c2b506;
   width: 100%;
   padding: 1px 0px;
+  margin-top: 1%;
 }
 .copyright{
   color: white;
