@@ -36,12 +36,16 @@
     transform: rotate(360deg);
   }
 }
-ul{
+body{
+  margin: 0 !important;
+}
+.menu{
   display: flex;
   background-color: #282c34;
   list-style: none;
   padding-bottom: 5px;
   padding-top: 2px;
+  margin-top: 0px;
 }
 li{
   padding-top: 3px;
@@ -64,10 +68,10 @@ a{
   width: 280px;
   margin-bottom: 0px;
 }
-.grid{
+.container{
   display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 100px 200px;
+	grid-template-rows: 300px 280px;
   margin: 20px 10% 20px 10%;
 }
 
@@ -98,6 +102,10 @@ button{
   background-color: #c2b506;
   width: 100%;
   padding: 1px 0px;
+  color: white;
+  padding: 6px 0px;
+  margin-bottom: 0px;
+  font-size: 13px;
 }
 .copyright{
   color: white;
